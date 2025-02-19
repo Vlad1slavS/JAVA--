@@ -5,7 +5,7 @@ import com.example.FirstNumber.Annotations.TimeChecker.Timer;
 public class Search {
 
     @Timer // Аннотируем метод для измерения времени
-    public int search(Integer[] sortedArray, int valueToFind) {
+    public int sequentialSearch(Integer[] sortedArray, int valueToFind) {
         for (int i : sortedArray) {
             if (i == valueToFind) {
                 return i;
